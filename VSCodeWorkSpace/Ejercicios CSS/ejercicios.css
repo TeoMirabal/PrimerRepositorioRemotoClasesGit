@@ -1,0 +1,82 @@
+/* Ejercicio 1: Selecciona los elementos <div> que sean hijos de otro <div> */
+/* Ejercicio 2: Selecciona los hijos de los elementos <p> */
+/* Ejercicio 3: Selecciona los elementos que sean hijos de <article> */
+/* Ejercicio 4: Selecciona los <p> que estén dentro de un <article> */
+/* Ejercicio 5: Selecciona los títulos <h1> y los <h3> */
+/* Ejercicio 6: Selecciona los <ol> que estén dentro de <body> */
+/* Ejercicio 7: Cualquier elemento <ul> que tenga la clase “amarillo” */
+/* Ejercicio 8: Los elementos <ul> que sean hijos de <body> */
+/* Ejercicio 9: Los elementos <a> que sean hijos de <p> */
+/* Ejercicio 10: Selecciona el elemento con id “platano” */
+/* Ejercicio 11: Todos los elementos <div> que sean hermanos de un elemento <h2> */
+/* Ejercicio 12: Todos los elementos <p> con clase “paisa”, descendientes de un elemento <ul> */
+/* Ejercicio 13: Selecciona los <h1>, <h2>, <h3> que tengan la clase “headertitle”, hijos del <header> */
+
+/*1*/
+div div{
+    color: aliceblue;
+}
+
+/*2*/
+p *{
+    color: aliceblue;
+}
+
+/*3*/
+article>p{
+    color: aliceblue;
+}
+
+/*4*/
+article p{
+    color: aliceblue;
+}
+
+/*5*/
+h1{
+    color: aliceblue;
+}
+
+h3{
+    color: aliceblue;
+}
+
+/*6*/
+body ol{
+    color: aliceblue;
+}
+
+/*7*/
+.amarillo{
+    color: yellow;
+}
+
+/*8*/
+body > ul{
+    color: aliceblue;
+}
+
+/*9*/
+p > a{
+    color: aliceblue;
+}
+
+/*10*/
+#platano{
+    color: aliceblue;
+}
+
+/*11*/
+h2 ~ div{
+    color: aliceblue;
+}
+
+/*12*/
+ul p.paisa{
+    color: aliceblue;
+}
+
+/*13*/
+header h1.headertitle, h2.headertitle, h3.headertitle{
+    color: aliceblue;
+}

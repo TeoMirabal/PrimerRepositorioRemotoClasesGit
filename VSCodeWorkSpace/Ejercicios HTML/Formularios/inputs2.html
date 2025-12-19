@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <!-- Título para el navegador y los buscadores -->
+    <title>Ejercicios HTML de Teo Mirabal</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta name="description" content="Mis conocimientos en html">
+
+    <!-- Palabras clave para los buscadores -->
+    <meta name="keywords" content="Teo, html, conquerblocks">
+
+    <!-- Autor de la página -->
+    <meta name="author" content="@TeoMirabal">
+
+    <!-- Favicon de la página -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Codificación-->
+    <meta charset="UTF-8">
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#1e7bbf">
+
+</head>
+
+<body>
+    <header>
+     
+     <h1>Tipos de Inputs segunda parte</h1>
+     <nav>
+         <a href="inputs.html"> 🔙Volver </a>
+     </nav>
+      
+    </header>
+
+    <main>
+       
+      <form action="#" method="get">
+          <div>
+             
+             <h3>Input type checkbox</h3>
+             <p> Se utiliza para opciones ya sean de requisitos, pendientes, solicitudes, etc. </p> 
+             <input type="checkbox" name="game1">
+             <label for="game1">Hollow Knight</label>
+             <input type="checkbox" name="game2">
+             <label for="game2">Minecraft</label>
+             <input type="checkbox" name="game3">
+             <label for="game3">GTA V</label>
+             
+          </div>
+
+          <div>
+
+            <h3>Input type radio</h3>
+            <p>Sirve para lo mismo que el checkbox pero cuando las opciones son excluyentes (solo se puede elegir uno). <br>Para lograr que solo se pueda elegir uno todos
+                 los inputs deben tener el mismo nombre, de esta forma cuando <br> seleccione uno y quiera cambiar a otro, en el momento de seleccionar otro el anterior se desmarca.</p> 
+
+            <p>Seleccionar color del producto:</p> 
+
+            <label><input type="radio" name="color" value="rojo" > Rojo</label>
+            <label><input type="radio" name="color" value="azul" > Azul</label>
+            <label><input type="radio" name="color" value="negro"> Negro</label>
+            <label><input type="radio" name="color" value="verde"> Verde</label>
+
+          </div>
+
+          <div>
+
+            <h3>Input type bio</h3>
+            <p> Se utiliza para escribir biografias </p>
+
+            <input type="bio">
+          </div>
+          
+
+
+
+
+          <div>
+            <button>
+                Enviar
+            </button>
+          </div>
+       </form> 
+        
+    </main>
+</body>
+</html>

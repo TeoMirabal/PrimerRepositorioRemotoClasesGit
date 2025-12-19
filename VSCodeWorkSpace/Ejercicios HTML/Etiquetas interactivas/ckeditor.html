@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo CKEditor 5</title>
+  <!-- CKEditor 5 Classic desde CDN -->
+  <script src="https://cdn.ckeditor.com/ckeditor5/41.4.2/classic/ckeditor.js"></script>
+</head>
+<body>
+
+    <header>
+        <h2>Ejemplo básico de CKEditor 5</h2>
+        <a href="index_etiquetas_interactivas.html"> 🔙Volver</a>
+    </header>
+  
+ <main><textarea id="editor"></textarea>
+
+  <script>
+    ClassicEditor
+      .create(document.querySelector('#editor'))
+      .catch(error => {
+        console.error(error);
+      });
+  </script>
+  </main>
+  <footer>
+  </footer>
+  
+</body>
+</html>

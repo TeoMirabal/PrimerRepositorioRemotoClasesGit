@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <!-- Título para el navegador y los buscadores -->
+    <title>Ejercicios HTML de Teo Mirabal</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta name="description" content="Página de mis conocimientos en html">
+
+    <!-- Palabras clave para los buscadores -->
+    <meta name="keywords" content="Teo, html, conquerblocks">
+
+    <!-- Autor de la página -->
+    <meta name="author" content="@TeoMirabal">
+
+    <!-- Favicon de la página -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Codificación-->
+    <meta charset="UTF-8">
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#1e7bbf">
+
+    <!-- jQuery (requerido por Select2) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- CSS de Select2 -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Etiqueta Select2</h1>
+        <nav>
+            <a href="../Etiquetas interactivas/index_etiquetas_interactivas.html">🔙 Volver atrás</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <div>
+
+            <h2>Ejemplo de select2 (no nativo)</h2>
+            <select class="miSelect" style="width:200px">
+                <!-- PARA USAR SELECT HAY QUE PONER EN EL HEAD LAS 2 LINEAS DE CODIGO CORRESPONDIENTES-->
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+                <option value="3">Opción 3</option>
+            </select>
+            <script>
+                $(document).ready(function () {
+                    $('.miSelect').select2();
+                });
+            </script>
+        </div>
+
+        
+
+        <div>
+            <h2>Ejemplo de select nativo</h2>
+            <select class="miSelectMultiple" multiple="multiple">
+            <option value="A">Opción A</option>
+            <option value="B">Opción B</option>
+            <option value="C">Opción C</option>
+            <option value="D">Opción D</option>
+            <option value="A">Opción A</option>
+            <option value="B">Opción B</option>
+            <option value="C">Opción C</option>
+            <option value="D">Opción D</option>
+            <option value="A">Opción A</option>
+            <option value="B">Opción B</option>
+            <option value="C">Opción C</option>
+            <option value="D">Opción D</option>
+        </select></div>
+        
+    </main>
+
+    <footer></footer>
+
+</body>
+
+</html>

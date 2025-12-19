@@ -1,0 +1,23 @@
+<picture>
+    <!-- Formato moderno: AVIF -->
+    <source type="image/avif" media="(min-width: 900px)"
+        srcset="<!-- image here --> 1x, <!-- image here --> 2x, <!-- image here --> 3x">
+    <source type="image/avif" media="(min-width: 600px) and (max-width: 899px)"
+        srcset="<!-- image here --> 1x, <!-- image here --> 2x">
+    <source type="image/avif" media="(max-width: 599px)" srcset="<!-- image here --> 1x">
+
+    <!-- Formato moderno: WebP -->
+    <source type="image/webp" media="(min-width: 900px)"
+        srcset="<!-- image here --> 1x, <!-- image here --> 2x, <!-- image here --> 3x">
+    <source type="image/webp" media="(min-width: 600px) and (max-width: 899px)"
+        srcset="<!-- image here --> 1x, <!-- image here --> 2x">
+    <source type="image/webp" media="(max-width: 599px)" srcset="<!-- image here --> 1x">
+
+    <!-- Fallback universal: JPG/PNG/GIF -->
+    <source media="(min-width: 900px)" srcset="<!-- image here --> 1x, <!-- image here --> 2x, <!-- image here --> 3x">
+    <source media="(min-width: 600px) and (max-width: 899px)" srcset="<!-- image here --> 1x, <!-- image here --> 2x">
+    <source media="(max-width: 599px)" srcset="<!-- image here --> 1x">
+
+    <!-- Imagen final renderizada -->
+    <img src="<!-- image here -->" alt="Descripción de la imagen">
+</picture>

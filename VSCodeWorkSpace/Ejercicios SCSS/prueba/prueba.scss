@@ -1,0 +1,27 @@
+$primary-color: blue;
+$font-size: 24px;
+$black-color: black;
+$font-weight: bold;
+
+h1 {
+  color: $primary-color;
+  font-size: $font-size;
+  padding: 10px;
+  font-weight: $font-weight;
+  background-color: $black-color;
+  margin-bottom: 500px;
+
+
+}
+
+p {
+  font-size: 30px;
+  color: white;
+  background-color: $primary-color;
+  padding-top: 100px;
+  margin: 50px;
+}
+
+//sass --watch --poll prueba.scss prueba.css
+// Es el comando para compilar el archivo SCSS a CSS
+// hay que ponerlo en la terminal

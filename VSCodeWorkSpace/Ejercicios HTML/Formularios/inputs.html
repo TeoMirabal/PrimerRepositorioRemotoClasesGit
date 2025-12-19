@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <!-- Título para el navegador y los buscadores -->
+    <title>Ejercicios HTML de Teo Mirabal</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta name="description" content="Mis conocimientos en html">
+
+    <!-- Palabras clave para los buscadores -->
+    <meta name="keywords" content="Teo, html, conquerblocks">
+
+    <!-- Autor de la página -->
+    <meta name="author" content="@TeoMirabal">
+
+    <!-- Favicon de la página -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Codificación-->
+    <meta charset="UTF-8">
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#1e7bbf">
+
+</head>
+
+<body>
+    
+    <header>
+     <h1>Tipos de Inputs genericos</h1>
+     <nav>
+         <a href="index_formularios.html"> 🔙Volver </a>
+     </nav>
+      
+    </header>
+
+    <main>
+
+     <form action="#" method="get">
+        <div>
+
+        <h2>Input type Search</h2>
+        <p>Input de texto pero con la funcionalidad de agregar una <br>x para eliminar el contenido escrito por el usuario</p>
+        <label for="q">Buscar:</label>
+        <input id="q" type="search" name="q" placeholder="Busca">
+
+     </div>
+
+     <div>
+        <h3>Input type color</h3>
+        <p> Sirve para elegir cualquier color dentro del espectro rgb y otros </p>
+        <label for="color">Color:</label>
+        <input id="color" type="color" name="color">
+     </div>
+
+     <div>
+        <h3>input type date</h3>
+        <p> input especifico para seleccionar fechas</p>
+        <input type="date" name="fecha de nacimiento">
+     </div>
+
+     <div>
+        <h3>input type time</h3>
+        <p>input especifico para seleccionar horario</p>
+        <input type="time" name="Hora de la reunion">
+     </div>
+
+     <div>
+        <h3>input type datetime-local</h3>
+        <p> input especifico para seleccionar fecha y hora</p>
+        <input type="datetime-local" name="fecha y hora de la reserva ">
+     </div>
+
+     <div>
+        <h3>input type month</h3>
+        <p> input especifico para seleccionar mes</p>
+        <input type="month" name="Mes">
+     </div>
+
+     <div>
+        <h3>input type tel</h3>
+        <p> input especifico para telefono. No es muy util ya que hay que poner un patron<br> especifico para cada país por lo que es mas recomendable usar un input tipo texto</p>
+        <input type="tel" name="numero telefonico" pattern="[0-9] {2}- [0-9] {2}- [0-9] {4}- [0-9] {4}">
+     </div>
+
+     <div>
+        <h3>input type range</h3>
+        <p> input para marcar informacion dentro de un rango </p>
+        <input type="range" name="Html experience" min="0" max="10">
+     </div>
+
+     <div>
+        <button>Enviar</button>
+     </div>
+
+     </form>
+
+    </main>
+
+    <footer>
+        <nav>
+            <h2><a href="inputs2.html">Inputs segunda parte</a> </h2>
+        </nav>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,350 @@
+.flex{
+    display: flex;
+}
+
+/* ----------------------------------------------------- */
+
+.ejercicio1{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(204, 204, 204);
+    position: relative;
+}
+
+.ejercicio1 .rojo, .ejercicio1 .azul{
+    width: 40%;
+    height: 80px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ejercicio1 .rojo{
+    background-color: red;
+    top: 10px;
+    left: 10px;
+}
+.ejercicio1 .azul{
+    background-color: blue;
+    bottom: 10px;
+    right: 10px;
+}
+
+.ejercicio1 .verde, .ejercicio1 .amarillo{
+    width: 40%;
+    height: 160px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ejercicio1 .verde{
+    background-color: green;
+    bottom: 10px;
+    left: 10px;
+}
+
+.ejercicio1 .amarillo{
+    background-color: yellow;
+    top: 10px;
+    right: 10px;
+}
+
+/* ----------------------------------------------------- */
+
+.ejercicio2{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(204, 204, 204);
+    position: relative;
+}
+
+.ejercicio2 .rojo, .ejercicio2 .amarillo, .ejercicio2 .azul, .ejercicio2 .verde{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ejercicio2 .rojo{
+    background-color: red;
+}
+.ejercicio2 .amarillo{
+    background-color: yellow;
+    top: 0px;
+    right: 0px;
+}
+.ejercicio2 .azul{
+    background-color: blue;
+    bottom: 0px;
+    right: 0px;
+}
+.ejercicio2 .verde{
+    background-color: green;
+    bottom: 0px;
+    left: 0px;
+}   
+
+/* ----------------------------------------------------- */
+
+.ejercicio3{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(204, 204, 204);
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ejercicio3 .rojo {
+  width: 55%;
+  height: 120px;
+  position: absolute;
+  left: 160px;
+  bottom: 5px;
+  background-color: red;
+  z-index: 4;
+}
+
+.ejercicio3 .azul {
+  width: 60%;
+  height: 210px;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  background-color: blue;
+  z-index: 1;
+}
+
+.ejercicio3 .amarillo {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  background-color: yellow;
+  z-index: 3;
+}
+
+.ejercicio3 .verde {
+  width: 200px;
+  height: 170px;
+  position: absolute;
+  left: 40px;
+  top: 130px;
+  background-color: green;
+  z-index: 2;
+}
+
+/* ----------------------------------------------------- */
+
+.ejercicio4{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(204, 204, 204);
+    position: relative;
+}
+
+/* evita espacios entre los div */
+.ejercicio4{
+    font-size: 0;
+}
+
+.ejercicio4 .rojo, .ejercicio4 .amarillo, .ejercicio4 .azul, .ejercicio4 .verde{
+    width: 100;
+    height: 300;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.ejercicio4 .verde{
+    background-color: green;
+    margin-left: 175px;
+    margin-top: 45px;
+    
+}
+
+.ejercicio4 .amarillo{
+    background-color: yellow;
+}
+
+.ejercicio4 .rojo{
+    background-color: red;
+}
+
+.ejercicio4 .azul{
+    background-color: blue;
+}
+
+/* ----------------------------------------------------- */
+
+.ejercicio5{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(204, 204, 204);
+    position: relative;
+}
+
+.ejercicio5 .rojo, .ejercicio5 .amarillo, .ejercicio5 .azul, .ejercicio5 .verde{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.ejercicio5 .amarillo, .ejercicio5 .rojo{
+    width: 70%;
+    height: 20%;
+    z-index: 1;
+}
+
+.ejercicio5 .verde, .ejercicio5 .azul{
+    width: 10%;
+    height: 80%;
+    z-index: 2;
+}
+
+.ejercicio5 .verde{
+    background-color: green;
+    top: 10%;
+    right: 25%;
+    
+}
+
+.ejercicio5 .amarillo{
+    background-color: yellow;
+    bottom: 20%;
+    left: 15%;
+}
+
+.ejercicio5 .rojo{
+    background-color: red;
+    top: 20%;
+    left: 15%;
+}
+
+.ejercicio5 .azul{
+    background-color: blue;
+    top: 10%;
+    left: 25%;
+}
+
+/* ----------------------------------------------------- */
+
+.ejercicio7{
+    width: 800px;
+    height: 1108px;
+    background-color: rgb(204, 204, 204);
+    position: relative;
+    border: 1px solid black;
+}
+
+.ejercicio7 .title{
+    width: 785px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 6px;
+}
+
+.ejercicio7 .bodytext{
+    width: 785px;
+    height: 877px;
+    border: 1px solid black;
+    margin: 6px;
+    
+}
+
+.ejercicio7 .footer{
+    width: 785px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 6px;
+}
+
+/* ----------------------------------------------------- */
+
+.ejercicio8{
+    width: 800px;
+    height: 1108px;
+    background-color: rgb(204, 204, 204);
+    position: relative;
+    border: 1px solid black;
+}
+
+.ejercicio8 .header{
+    width: 785px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 6px;
+}
+
+
+.ejercicio8 .sidebar{
+    width: 356px;
+    height: 877px;
+    border: 1px solid black;
+    margin: 6px;
+    margin-right: 0%;
+    
+}
+
+.ejercicio8 .main{
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 6px;
+    
+}
+
+.ejercicio8 .footer{
+    width: 785px;
+    height: 95px;
+    border: 1px solid black;
+    margin: 6px;
+    margin-top: 0%;
+}
+
+/* ----------------------------------------------------- */
+
+.ejercicio9{
+    width: 800px;
+    height: 200px;
+    background-color: rgb(204, 204, 204);
+    position: relative;
+    border: 1px solid black;
+}
+
+.ejercicio9 .logo{
+    width: 350px;
+    height: 75px;
+    border: 1px solid black;
+    margin: 6px;
+}
+
+.ejercicio9 .topmenu{
+    width: 300;
+    height: auto;
+    border: 1px solid black;
+    margin: 6px;
+    position: absolute;
+    right: 0%;
+}
+
+.ejercicio9 .menu{
+    width: 350px;
+    height: auto;
+    border: 1px solid black;
+    margin: 6px;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+.ultop li{
+    display: inline;
+    margin-right: 10px;
+}
+
+/* ----------------------------------------------------- */

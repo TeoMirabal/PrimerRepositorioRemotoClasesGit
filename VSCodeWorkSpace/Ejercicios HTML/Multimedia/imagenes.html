@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Ejercicios de Imágenes</title>
+    <meta name="description" content="Página de mis conocimientos en HTML">
+    <meta name="keywords" content="Teo, HTML, conquerblocks">
+    <meta name="author" content="@TeoMirabal">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1e7bbf">
+</head>
+
+<body>
+    <header>
+        <h1>Imagenes</h1>
+        <nav>
+            <a href="index_multimedia.html">🔙 Volver atrás</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <nav>
+            
+        </nav>
+
+        <section>
+            <h2>Mi primer imagen en HTML</h2>
+            <figure>
+                <figcaption>Aguante Goku</figcaption>
+                <img loading="lazy" src="../img/goku.gif" alt="Goku animado pulgar arriba" width="300" height="168">
+            </figure>
+        </section>
+
+        <section>
+            <h2>Ejemplo de imagen totalmente optimizada</h2>
+            <picture>
+                <!-- Formato moderno preferente  (no se muestra en el navegador porque no existe la imagen en los archivos)-->
+                <source type="image/webp" media="(min-width: 900px)"
+                    srcset="../img/goku.webp 1x, ../img/goku-hd.webp 2x, ../img/goku-fhd.webp 3x">
+                <source type="image/webp" media="(min-width: 600px) and (max-width: 899px)"
+                    srcset="../img/goku.webp 1x, ../img/goku-hd.webp 2x, ../img/goku-fhd.webp 3x">
+                <source type="image/webp" media="(max-width: 599px)"
+                    srcset="../img/goku.webp 1x, ../img/goku-hd.webp 2x, ../img/goku-fhd.webp 3x">
+
+
+                <img src="../img/goku.gif" srcset="../img/goku.gif 1x, ../img/goku-hd.gif 2x, ../img/goku-fhd.gif 3x"
+                    alt="Goku animado pulgar arriba">
+            </picture>
+        </section>
+
+        <section>
+            <h2>Atributos y sus usos</h2>
+
+            <picture>
+                <source media="(min-width: 900px)"
+                    srcset="../img/diapositiva.png 1x, ../img/diapositiva.png 2x, ../img/diapositiva.png 3x">
+                <source media="(min-width: 600px) and (max-width: 899px)"
+                    srcset="../img/diapositiva.png 1x, ../img/diapositiva.png 2x">
+                <source media="(max-width: 599px)" srcset="../img/diapositiva.png 1x">
+
+                <img src="../img/diapositiva.png" alt="Atributos">
+            </picture>
+        </section>
+
+    </main>
+</body>
+
+</html>

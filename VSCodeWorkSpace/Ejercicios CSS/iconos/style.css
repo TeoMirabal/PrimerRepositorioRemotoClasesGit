@@ -1,0 +1,7 @@
+nav i{
+    color: rgb(255, 0, 0);
+}
+
+nav i:hover{
+    color: rgb(10, 209, 59);
+}

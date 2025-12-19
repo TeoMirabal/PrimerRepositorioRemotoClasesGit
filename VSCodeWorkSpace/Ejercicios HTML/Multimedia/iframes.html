@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <!-- Título para el navegador y los buscadores -->
+    <title>Ejercicios HTML de Teo Mirabal</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta name="description" content="Página de mis conocimientos en html">
+
+    <!-- Palabras clave para los buscadores -->
+    <meta name="keywords" content="Teo, html, conquerblocks">
+
+    <!-- Autor de la página -->
+    <meta name="author" content="@TeoMirabal">
+
+    <!-- Favicon de la página -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Codificación-->
+    <meta charset="UTF-8">
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#1e7bbf">
+
+</head>
+
+<body>
+    <header>
+
+        <h1>
+            Iframes (internos/externos)
+        </h1>
+
+        <nav>
+            <a href="index_multimedia.html">🔙Volver</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Iframe externo</h2>
+            <p>Este es el caso clásico: el iframe carga una página desde otro sitio web (dominio distinto al tuyo).</p>
+
+            <iframe src="https://www.html-code-generator.com/html" width="1024" height="500"
+                style="border:1px solid #ccc;">
+            </iframe>
+        </section>
+
+        <section>
+
+            <h2>Iframe interno</h2>
+            <p>
+                Este es cuando vos tenés una copia local del contenido (por ejemplo, descargaste html.html y lo pusiste
+                en tu servidor o proyecto).
+            </p>
+
+            <iframe src="../Valorant/pistolas_ia.html" width="1024" height="500" style="border:1px solid #ccc;">
+            </iframe>
+
+        </section>
+
+        <section>
+
+            <h2> Iframe externo youtube</h2>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1uxJmxM0RaE?si=pxr5Jw38WquUGylK"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+
+        </section>
+
+        <section>
+            <h2>Iframe externo Google maps</h2>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.870876260102!2d-58.52739269032664!3d-34.60742650845629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb71e40f11aff%3A0x482b5306204befaf!2sMilAires%20Oasis%20Urbano!5e0!3m2!1ses!2sar!4v1761680428590!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+
+        <section>
+
+            <h2>Ejemplo 2 iframes en 1</h2>
+
+            <ul>
+                <li>
+                    <a href="https://es.wikipedia.org/wiki/HTML" target="myIframe">
+                        Cargar HTML en la Wikipedia
+                    </a>
+                </li>
+                <li>
+                    <a href="https://es.wikipedia.org/wiki/CSS" target="myIframe">
+                        Cargar CSS en la Wikipedia
+                    </a>
+                </li>
+            </ul>
+
+            <iframe src="" width="1024" height="768" name="myIframe" frameborder="0">
+            </iframe>
+
+
+        </section>
+
+
+    </main>
+
+</body>

@@ -1,0 +1,62 @@
+html, body{
+  background-color: black;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Contenedor */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Botón principal */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* Lista oculta */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #25252a;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  border-radius: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+}
+
+/* Items */
+.dropdown-content li a {
+  color: lime;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content li a:hover {
+  background-color: lime;
+  color: #25252a;
+}
+
+/* Mostrar menú al hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Hover del botón */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}

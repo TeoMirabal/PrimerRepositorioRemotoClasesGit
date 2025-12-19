@@ -1,0 +1,64 @@
+[20416:21876:2025-12-16 10:43:33.746] Main Start
+[20416:21876:2025-12-16 10:43:33.747] Command line:"D:\VS CODE WorkSpace\Ejercicios CSS\Grid\Zoom_cm_fo42pnktZ9vvrZo4_mmAvrtXE0wRuNe7vR2tW4lz74ZcUHyuFV-6+5@xSoGWP1pMPtiULGp_k5f360ae4cd5c1762_.exe"  Instance:0xF50000 Show State:1
+[20416:21876:2025-12-16 10:43:33.789] Zoo
+[20416:3304:2025-12-16 10:43:33.790] [process_requst] start, url:https://us06web.zoom.us/conf/launch
+[20416:3304:2025-12-16 10:43:34.239] [req_state_read_status_code] zHttpQueryInfo complete, status:200
+[20416:3304:2025-12-16 10:43:34.239] [req_state_read_status_code] zHttpQueryInfo complete, status:200 Error: 0
+[20416:3304:2025-12-16 10:43:34.239] [read_response_content] API call zHttpQueryInfo failed, error: 12150
+[20416:3304:2025-12-16 10:43:34.240] [log_response_content] Content length (1048576 as unknown):1048576 , Total read: 2175 , Error No: 0 , Status code: 200
+[20416:3304:2025-12-16 10:43:34.240] [log_response_content] header:
+[20416:3304:2025-12-16 10:43:34.240] HTTP/1.1 200 OK
+Date: Tue, 16 Dec 2025 13:43:34 GMT
+Content-Type: text/plain;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-zm-trackingid: v=2.0;clid=us06;rid=WEB_0677313f1942791b315b8c05797b0cf5
+x-content-type-options: nosniff
+content-security-policy: upgrade-insecure-requests; default-src https://*.zoom.us https://zoom.us blob: 'self'; img-src https: about: blob: data: 'self'; style-src https: safari-extension: chrome-extension: 'unsafe-inline' data: 'self'; font-src https: safari-extension: chrome-extension: blob: data: 'self'; connect-src * about: blob: data: 'self'; media-src * rtmp: blob: data: 'self'; frame-src https: ms-appx-web: zoommtg: zoomus: wvjbscheme: zoomprc: data: blob: 'self'; object-src 'none'; base-uri 'none';
+x-frame-options: SAMEORIGIN
+Set-Cookie: _zm_feature=; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Secure; HttpOnly
+x-zm-zoneid: VA
+strict-transport-security: max-age=31536000; includeSubDomains
+x-xss-protection: 1; mode=block
+referrer-policy: strict-origin-when-cross-origin
+vary: accept-encoding
+cf-cache-status: DYNAMIC
+Set-Cookie: zm_aid=; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Domain=zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: zm_haid=; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Domain=zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: zm_tmaid=; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Domain=zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: zm_htmaid=; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Domain=zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: cred=C2B129462313F5C59FD1F5AF2E682528; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_page_auth=us06_c_SqVoB9QISIiwFrJok1GcTA; Domain=zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_ssid=us06_c_-Io2LsMIQEyygYMUIsxhxg; Domain=zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_ctaid=MPGAmSzFSN2BGMpFTZbk4g.1765892614088.17f6a3cd658c9826a85e6282af8378cb; Max-Age=7200; Expires=Tue, 16 Dec 2025 15:43:34 GMT; Domain=zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_chtaid=928; Max-Age=7200; Expires=Tue, 16 Dec 2025 15:43:34 GMT; Domain=zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_mtk_guid=07277b9d0345419da7c251b9a4ff2be0; Max-Age=63072000; Expires=Thu, 16 Dec 2027 13:43:34 GMT; Domain=zoom.us; Path=/; Secure
+Set-Cookie: __cf_bm=ksp2Pp2Z.FITxjlssdCfA55CTQ.XBFuSEtn0zAMvHTk-1765892614-1.0.1.1-tOKC0kj8wVTECFKhBI3rE4EZr2J0BgmtCAkanI_yX0lBxH.FmlJb3XvnYR3QHtWyuYRLcKG3H9cfctk53O1n72fC1N3jrmpV5F7sEUyOS78; path=/; expires=Tue, 16-Dec-25 14:13:34 GMT; domain=.us06web.zoom.us; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 9aee9c4559dbb27d-EZE
+alt-svc: h3=":443"; ma=86400
+
+
+[20416:3304:2025-12-16 10:43:34.240] [process_requst] End for url:https://us06web.zoom.us/conf/launch, return code:200, Error:0, Response content size:2175
+[20416:21876:2025-12-16 10:43:34.294] [client_has_installed_app] found path:
+[20416:21876:2025-12-16 10:43:34.294]  ***NULL-POINTER-PLACEHOLDER***
+[20416:21876:2025-12-16 10:43:34.294] [param_query_local_path] path is: C:\Users\TEO\AppData\Roaming\Zoom\ZoomDownload\ dir create response : 1 system error: 1008
+[20416:21876:2025-12-16 10:43:34.294] [downloader_run] State:0
+[20416:21196:2025-12-16 10:43:34.294] [process_requst] start, url:https://us06web.zoom.us/client/latest/Installer.exe?archType=x64
+[20416:21876:2025-12-16 10:43:34.294] [client_has_installed_app] found path:
+[20416:21876:2025-12-16 10:43:34.294]  ***NULL-POINTER-PLACEHOLDER***
+[20416:21196:2025-12-16 10:43:34.722] [req_state_read_status_code] zHttpQueryInfo complete, status:200
+[20416:21196:2025-12-16 10:43:34.722] [req_state_read_status_code] zHttpQueryInfo complete, status:200 Error: 0
+[20416:21196:2025-12-16 10:43:34.733] [read_response_file] Status Code:200, content length: 1152904, total read: 1152904, error code: 0
+[20416:21196:2025-12-16 10:43:34.734] [process_requst] End for url:https://us06web.zoom.us/client/latest/Installer.exe?archType=x64, return code:200, Error:0, Response content size:0
+[20416:21876:2025-12-16 10:43:34.783] [handle_download_job_done] Index: 1 Curr index: 1 StatusCode: 200 Error: 0 Response is Empty. 
+[20416:21196:2025-12-16 10:43:34.809] [process_requst] start, url:https://us06web.zoom.us/client/latest/Zoom.msi?archType=x64
+[20416:21196:2025-12-16 10:43:35.31] [req_state_read_status_code] zHttpQueryInfo complete, status:200
+[20416:21196:2025-12-16 10:43:35.31] [req_state_read_status_code] zHttpQueryInfo complete, status:200 Error: 0
+[20416:21196:2025-12-16 10:43:35.734] [read_response_file] Status Code:200, content length: 44659900, total read: 44659900, error code: 0
+[20416:21196:2025-12-16 10:43:35.762] [process_requst] End for url:https://us06web.zoom.us/client/latest/Zoom.msi?archType=x64, return code:200, Error:0, Response content size:0
+[20416:21876:2025-12-16 10:43:35.786] [handle_download_job_done] Index: 3 Curr index: 3 StatusCode: 200 Error: 0 Response is Empty. 
+[20416:21876:2025-12-16 10:43:35.792] C:\Users\TEO\AppData\Roaming\Zoom\ZoomDownload\Installer.exe
+[20416:21876:2025-12-16 10:43:35.792] ZInstaller --conf.mode=silent --ipc_wnd=264606
+[20416:21876:2025-12-16 10:43:35.880] [launch_silent_install] Installer process created, result:42
+[20416:21876:2025-12-16 10:43:38.629] Main End

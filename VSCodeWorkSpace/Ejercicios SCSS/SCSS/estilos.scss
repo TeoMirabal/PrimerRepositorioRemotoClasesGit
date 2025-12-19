@@ -1,0 +1,20 @@
+@use 'header.scss';
+
+$primary-color: red;
+$secondary-color: #ffcccc;
+
+h1 {
+  color: blue;
+}
+
+
+section {
+  width: 50%;
+  height: auto;
+  display: flex;
+
+  p {
+    color: $secondary-color;
+  }
+}
+

@@ -1,0 +1,264 @@
+.e1 thead{
+  color: white;
+  background-color: black;
+  margin: 0;
+}
+
+.e1 thead th{
+  padding: 10px;
+  font-weight: normal;
+}
+
+.e1 tbody tr:nth-of-type(3){
+  background-color: rgb(175, 175, 175);
+}
+
+.e1 tbody tr:first-of-type{
+  background-color: rgb(175, 175, 175);
+}
+
+.e1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  
+}
+
+.e2 {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden; /* fuerza que el contenido respete el radio */ 
+  border-bottom: 3px solid rgb(67, 150, 123);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.e2 thead{
+  background-color: rgb(67, 150, 123);
+  color: white;
+}
+
+.e2 thead th{
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.e2 tbody th{
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-bottom: 1px solid lightgrey;
+  font-weight: auto;
+}
+
+.e2 tbody tr:hover{
+  background-color: rgb(219, 219, 219);
+  color: rgb(67, 150, 123);
+  font-weight: bold;
+}
+
+.e3 {
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden; /* fuerza que el contenido respete el radio */ 
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+}
+
+.e3 thead th{
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  
+}
+
+.e3 thead tr{
+  background-color: rgb(51, 51, 51);
+  color: white;
+}
+
+.e3 tbody th{
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  
+}
+
+.e3 tbody tr th:first-of-type{
+  color: white;
+  background-color: rgb(63, 101, 197);
+  font-size: 20px;
+}
+
+.e3 tbody tr:nth-of-type(3) th:nth-of-type(3){
+  font-weight: bold;
+  background-color: rgb(249, 217, 73);
+}
+
+
+.e3 table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* oscurece un poco */
+  transition: background-color 0.3s ease; /* suaviza el efecto */
+}
+
+.e3 tbody tr:hover{
+  background-color: rgb(219, 219, 219);
+  font-weight: bold;
+}
+
+.e3 tbody tr:hover th:first-of-type {
+  background-color: rgb(40, 70, 150); /* azul más oscuro al pasar el mouse */
+}
+
+.e3 tbody tr:hover th {
+  font-weight: bold; /* por defecto en hover */
+}
+
+table.e4 {
+  font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+  border-spacing: 0;
+}
+
+table.e4 td,
+table.e4 th {
+  padding: 20px 40px;
+  text-align: left;
+}
+
+.e4 td a{
+  text-decoration: none;
+  color: black;
+}
+
+.e4 tbody tr:first-of-type td a{
+  background-color: rgb(83, 165, 81);
+  padding: 8px;
+  border-radius: 3px;
+  color: white;
+}
+
+.e4 tbody tr:nth-of-type(2) td a{
+  background-color: rgb(246, 195, 68);
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.e4 tbody tr:nth-of-type(3) td a{
+  background-color: rgb(203, 68, 74);
+  padding: 8px;
+  border-radius: 3px;
+  color: white;
+}
+
+.e4 tbody tr:nth-of-type(4) td a{
+  background-color: rgb(83, 165, 81);
+  padding: 8px;
+  border-radius: 3px;
+  color: white;
+}
+
+.e4 tbody tr:nth-of-type(5) td a{
+  background-color: rgb(203, 68, 74);
+  padding: 8px;
+  border-radius: 3px;
+  color: white;
+}
+
+.e4 tbody tr:nth-of-type(6) td a{
+  background-color: rgb(246, 195, 68);
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.e4 tbody tr:nth-of-type(7) td a{
+  background-color: rgb(246, 195, 68);
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.e4 tbody tr:nth-of-type(8) td a{
+  background-color: rgb(83, 165, 81);
+  padding: 8px;
+  border-radius: 3px;
+  color: white;
+}
+
+table.e4 tbody tr:nth-of-type(odd) {
+  background-color: white;
+}
+
+table.e4 tbody tr:nth-of-type(even) {
+  background-color: #f0f0f0; /* gris claro */
+}
+
+table.e4 thead th{
+  background-color: #f0f0f0;
+  font-weight: normal;
+}
+
+.e4 tbody tr td:first-of-type{
+  font-weight: bold;
+}
+
+.ejemplo8{
+  background-color: #19191d;
+  color: #ccc;
+  width: fit-content;
+  height: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ejemplo8 table{
+  border-collapse: collapse;
+  margin: 30px;
+  
+}
+
+.ejemplo8 tbody{
+  background-color: #25252a;
+  padding: 50px;
+}
+
+.ejemplo8 th, .ejemplo8 td{
+  padding: 20px;
+  border-bottom: 3px solid #19191d ;
+}
+
+td input {
+  border-color: #ccc;
+  color: #25252a;
+}
+
+input[type="checkbox"] {
+  appearance: none;          /* quita estilo nativo */
+  -webkit-appearance: none;  /* Safari/Chrome */
+  -moz-appearance: none;     /* Firefox */
+  
+  width: 18px;
+  height: 18px;
+  border: 2px solid #4CAF50;
+  border-radius: 100px;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;        /* clave para que ::after funcione */
+}
+
+input[type="checkbox"]:checked {
+  background-color: #25252a;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✔";              /* clásico check */
+  color: #4CAF50;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;                  /* centrado vertical */
+  left: 50%;                 /* centrado horizontal */
+  transform: translate(-50%, -50%);
+}

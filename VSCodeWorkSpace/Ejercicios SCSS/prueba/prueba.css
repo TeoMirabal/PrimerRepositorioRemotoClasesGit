@@ -1,0 +1,18 @@
+h1 {
+  color: blue;
+  font-size: 24px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: black;
+  margin-bottom: 500px;
+}
+
+p {
+  font-size: 30px;
+  color: white;
+  background-color: blue;
+  padding-top: 100px;
+  margin: 50px;
+}
+
+/*# sourceMappingURL=prueba.css.map */

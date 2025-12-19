@@ -1,0 +1,16 @@
+header {
+  display: block;
+}
+
+h1 {
+  color: blue;
+}
+
+section {
+  width: 50%;
+  height: auto;
+  display: flex;
+}
+section p {
+  color: #ffcccc;
+}/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <!-- Título para el navegador y los buscadores -->
+    <title>Ejercicios de Tablas</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta name="description" content="Página de mis conocimientos en html">
+
+    <!-- Palabras clave para los buscadores -->
+    <meta name="keywords" content="Teo, html, conquerblocks">
+
+    <!-- Autor de la página -->
+    <meta name="author" content="@TeoMirabal">
+
+    <!-- Favicon de la página -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Codificación-->
+    <meta charset="UTF-8">
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#1e7bbf">
+
+</head>
+
+<body>
+    <header>
+        <h1> Tablas Avanzadas</h1>
+        <nav>
+            <a href="index_tablas.html"> 🔙 Volver atras </a>
+        </nav>
+    </header>
+
+    <main>
+
+        <table>
+            <caption>Ejemplo de colspan simple</caption>
+
+            <tr>
+                <td colspan="2"> A </td>
+            </tr>
+            
+            <tr>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+        </table>
+
+        <table>
+            <caption>Ejemplo de colspan simple</caption>
+
+            <tr>
+
+                <td rowspan="2"> A </td>
+                <td>B</td>
+
+            </tr>
+            
+            <tr>
+                
+                <td>C</td>
+
+            </tr>
+        </table>
+
+        <table border="1">
+
+            <caption>Ejemplo de colspan complejo </caption>
+
+            <tr>
+            <td colspan="3">A</td>
+            </tr>
+            <tr>
+            <td>B</td>
+            <td>C</td>
+            <td colspan="2">D</td>
+            </tr>
+            
+            <tr>
+            <td>E</td>
+            <td colspan="4">F</td>
+            </tr>
+            
+            <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+            <td>J</td>
+            </tr>
+            
+            <tr>
+            <td>K</td>
+            </tr>
+
+        </table>
+        
+        
+        <h2> Ejemplo de tabla Semantica </h2>
+        
+        
+        <table border="1">
+            <caption><strong>Tabla de características del producto</strong></caption>
+            <thead></thead>
+            <tr>
+                <th>Característica</th>
+                <th>Detalle</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Material</td>
+                <td>Madera maciza</td>
+            </tr>
+            <tr>
+                <td>Color</td>
+                <td>Roble natural</td>
+            </tr>
+            <tr>
+                <td>Dimensiones</td>
+                <td>120cm x 60cm x 75cm</td>
+            </tr>
+            <tr>
+                <td>Peso</td>
+                <td>18 kg</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        </main>
+        </body>
+    </html>

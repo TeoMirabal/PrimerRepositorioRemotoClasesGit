@@ -1,0 +1,570 @@
+/* 🔹 Reglas comunes para todos los ejercicios */
+[class^="ejercicio"] {
+  width: fit-content;
+  border: 1px solid black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+[class^="ejercicio"] h1 {
+  color: white;
+  background-color: black;
+  padding: 20px 10px;
+  display: inline-block;
+  margin: 0;
+}
+
+[class^="ejercicio"] nav {
+  background-color: rgb(194, 193, 193);
+  padding: 0;
+}
+
+[class^="ejercicio"] a {
+  text-decoration: none;
+  color: inherit;
+}
+
+[class^="ejercicio"] ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+[class^="ejercicio"] li {
+  display: inline-block;
+  margin: 0;
+}
+
+[class^="ejercicio"] li a {
+  color: black;
+  display: block;
+  padding: 10px;
+  transition: all 0.5s ease;
+  margin-right: 0;
+}
+
+[class^="ejercicio"] a:hover {
+  color: white;
+  background-color: black;
+}
+
+/* 🔹 Diferencias específicas */
+.ejercicio1 {
+  width: 639px; /* único distinto */
+}
+.ejercicio1 ul {
+  justify-content: flex-start;
+}
+
+.ejercicio2 ul {
+  justify-content: center;
+}
+
+.ejercicio3 ul {
+  justify-content: space-between;
+}
+
+.ejercicio4 ul {
+  flex-direction: column;
+}
+.ejercicio4 nav {
+  width: 200px;
+}
+
+.imgcontainer{
+  display: flex;
+  background-color: #ccc;
+}
+
+.imgcontainer img{
+  margin: 5px;
+  border: 1px solid black;
+  border-style: dashed;
+}
+
+.ejercicio5 h1{
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+
+.viajes{
+  display: flex;
+  width: fit-content  ;
+  justify-content: center;
+}
+
+.viajes article{
+  background-color: rgb(139, 255, 255);
+  text-align: center;
+  padding: 10px 10px;
+  width: 33%;
+  height: fit-content;
+}
+
+.viajes p{
+  display: inline-block;
+  width: 300px;
+  height: fit-content;
+}
+
+.viajes article:nth-of-type(2){
+  background-color: rgb(164, 255, 164);
+  text-align: center;
+}
+
+.viajes article:nth-of-type(3){
+  background-color: rgb(136, 136, 255);
+  text-align: center;
+  margin: 0px;
+  border-bottom-right-radius: 29px;
+}
+
+.ejercicio7 h1{
+
+  display: block;
+  font-size: 20px;
+  text-align: right;
+  border-top-left-radius: 29px;
+}
+
+.viajes img{
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: 1px solid black;
+}
+
+section.viajes{
+  
+  border-bottom-right-radius: 30px;
+  border: 1px solid black;
+}
+
+.ejercicio7{
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+a.Ex8{
+  color: rgb(0, 68, 255);
+  display: inline-block;
+}
+
+a.Ex8:hover{
+  color: rgb(0, 238, 255);
+}
+
+.Exercise8 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centrar horizontal */
+}
+
+.Exercise8 header{
+  border: 1px solid black;
+  position: relative;
+  width: fit-content;
+  height: 285px;
+  margin-bottom: 40px;
+}
+
+.Exercise8 h1{
+  background-color: rgb(65, 209, 65);
+  padding: 30px 20px;
+  margin: 0;
+  text-align: center;
+
+}
+.Exercise8 .icon{
+  position: absolute;
+  top: 10px;
+  left: 160px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.Exercise8 ul{
+  background-color: rgb(117, 235, 122);
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  padding-left: 5px;
+  color: black;
+}
+
+.Exercise8 li{
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.Exercise8 a{
+  color: white;
+  display: block;
+  padding: 10px;
+  transition: all 0.5s;
+  margin-right: 0;
+  
+}
+
+.Exercise8 a:hover{
+  background-color: rgb(65, 209, 65);
+  
+}
+
+.casas{
+  border: 5px solid goldenrod;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 40px;
+  width: 751px;
+  height: 254px;
+  background-color: lightyellow;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.camping{
+  border: 5px solid darkgreen;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 40px;
+  width: 751px;
+  height: 254px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: lightgreen;
+  
+}
+
+.hoteles{
+  border: 5px solid darkblue;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 40px;
+  width: 751px;
+  height: 254px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: lightblue;
+}
+
+.icon1, .icon2, .icon3{
+  position: relative;
+  left: 15px;
+  top: 15px;
+  
+}
+
+.camping h2, .casas h2, .hoteles h2{
+  padding: 10px 30px;
+}
+
+.camping p, .casas p, .hoteles p{
+  padding: 0px 30px;
+}
+
+aside{
+  width: fit-content;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  background-color: #ccc;
+
+}
+
+.material-symbols-outlined:first-of-type{
+  font-size: 100px;
+}
+
+aside div{
+  display: flex;
+  align-items: center;
+}
+aside h2{
+  padding-left: 15px;
+}
+
+aside p{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*------------------------------------------------------*/
+
+.Flexbox2 article.ejercicio1{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.Flexbox2 h2{
+  display: block;
+}
+
+.Flexbox2 .ejercicio1 .div-container{
+  display: flex;
+  width: 100%;
+  border: 1px solid;
+  height: 100%;
+}
+
+.Flexbox2 .ejercicio1 .div-container div{
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.d1{
+  color: white;
+  background-color: green;
+}
+
+.d2{
+  color: white;
+  background-color: blue;
+}
+
+.d3{
+  color: white;
+  background-color: purple;
+}
+
+.d4{
+  color: white;
+  background-color: black;
+}
+
+.d5{
+  color: white;
+  background-color: darkgoldenrod;
+}
+
+.d6{
+  color: white;
+  background-color: orange;
+}
+
+.d7{
+  color: white;
+  background-color: red;
+}
+
+.d8{
+  color: white;
+  background-color: #ccc;
+}
+
+.d9{
+  color: white;
+  background-color: lime;
+}
+
+.d10{
+  color: white;
+  background-color: darkgreen;
+}
+
+article.ejercicio2{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.ejercicio2 .div-container div{
+  text-align: center;
+  padding: 20px;
+}
+
+.ejercicio2 .div-container{
+  height: fit-content;
+}
+.ejercicio2{
+  height: fit-content;
+  border: 5px solid black;
+}
+
+.ejercicio2 .div-container {
+  display: flex;
+  flex-direction: column-reverse;   /* Coloca los div en vertical e invierte el orden */   
+  height: 300px;            /* Define un alto para que el overflow funcione */
+  overflow-y: auto;         /* Scroll vertical cuando se llene */
+  padding: 10px;
+  border: 3px solid black;
+}
+
+
+article.ejercicio3{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.ejercicio3 .div-container{
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  width: 1234px;
+}
+
+.ejercicio3 .div-container div{
+  padding: 30px 200px;
+}
+
+.ejercicio3 .div-container .d10{
+  padding: 30px 194.5px;
+}
+
+article.ejercicio4{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.ejercicio4 .div-container{
+  display: flex;
+  border: 1px solid black;
+}
+
+.ejercicio4 .div-container div{
+  flex: 1;
+  text-align: center;
+}
+
+.ejercicio4 .div-container .d5{
+  order: -1;
+}
+
+.ejercicio4 .div-container .d6{
+  order: 20;
+}
+
+/*------------------------------------------------------------*/
+
+.ejercicio5{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.ejercicio5 .div-container{
+  width: 100%;
+  display: flex;
+  margin: 20px;
+}
+
+.ejercicio5 .div-container div.d1{
+  padding: 5px 5px;
+  font-size: 30px;
+}
+
+.ejercicio5 .div-container div.d2{
+  padding: 10px 5px;
+  font-size: 30px;
+}
+
+.ejercicio5 .div-container div.d3{
+  padding: 20px 5px;
+  font-size: 60px;
+}
+
+.ejercicio5 .div-container div.d4{
+  padding: 30px 5px;
+  font-size: 60px;
+}
+
+.ejercicio5 .div-container div.d5{
+  padding: 5px 5px;
+  font-size: 10px;
+}
+
+.ejercicio5 .div-container div.d6, .ejercicio5 .div-container div.d7, .ejercicio5 .div-container div.d8, .ejercicio5 .div-container div.d9{
+  padding: 5px 5px;
+  font-size: 30px;
+}
+
+.ejercicio5 .div-container div.d10{
+  padding: 0px 5px;
+  font-size: 30px;
+}
+
+/* <ia> */
+
+  .ejercicio5 .div-container > div {
+    display: flex;
+    align-items: center;
+  }
+
+  .ejercicio5 .div-container > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* </ia> */
+
+/*------------------------------------------------------------*/
+
+.ejercicio6{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.ejercicio6 .div-container{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ejercicio6 .div-container div{
+  width: 33.33%;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+/*------------------------------------------------------------*/
+
+.ejercicio7a{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 40px;
+  
+  
+}
+
+.ejercicio7a .div-container{
+  display: flex;
+  width: 100%;
+  height: 416px;
+  text-align: center;
+  align-items: flex-start;
+}
+
+.ejercicio7a .div-container div{
+  flex: 1;
+  padding: 10px 0px;
+}
+
+.ejercicio7a .div-container div.d2{
+  align-self: stretch;
+}
+
+.ejercicio7a .div-container div.d6{
+  align-self: center;
+}
+
+.ejercicio7a .div-container div.d9{
+  align-self: flex-end;
+  padding-bottom: 40px;
+}

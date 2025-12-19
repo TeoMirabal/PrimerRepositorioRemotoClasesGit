@@ -1,0 +1,424 @@
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  max-width: 300px;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  text-align: center;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Contenedor general de las secciones */
+.weapon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Cada tarjeta de arma */
+.weapon-grid section {
+  background-color: #242424;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.884);
+  flex-shrink: 0;
+}
+
+/* Imagen de arma */
+.weapon-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Tablas */
+.weapon-grid table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.weapon-grid th,
+.weapon-grid td {
+  border: 1px solid #ffffff;
+  padding: 6px 8px;
+  text-align: center;
+}
+
+.weapon-grid caption {
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+nav:nth-of-type(2) {
+
+  /*text-align: center;*/
+  font-size: 40px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+
+}
+
+
+
+body>header>nav:nth-of-type(2) a {
+  color: #0051ff;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 20px;
+  font-family: 'Inter', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+body>main>nav>select.miSelect,
+body>main>nav>select.miSelect option {
+  color: black;
+}
+
+.select2-container--default .select2-selection--single {
+  color: black;
+}
+
+.select2-results__option {
+  color: black;
+}
+
+.weapon-grid h2 {
+
+  color: red;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+body section p {
+
+  color: #ff3c00;
+  font-size: 20px;
+}
+
+
+.fila {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  /* controla el espacio entre video y tips */
+  margin-top: 20px;
+    
+}
+
+.video,
+.tips {
+  flex: 0 0 48%;
+  /* ancho fijo y sin estiramiento */
+  box-sizing: border-box;
+}
+
+
+/* Responsive opcional */
+@media (max-width: 768px) {
+  .fila {
+    flex-direction: column;
+  }
+
+  .video,
+  .tips {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+.video video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1{
+  font-family: "Audiowide", sans-serif;
+  color: red;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+body>header>nav:nth-of-type(1) a{
+  font-family: "Audiowide", sans-serif;
+  color: red;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body>header>nav:nth-of-type(2) a{
+  font-family: "Audiowide", sans-serif;
+  color: rgb(4, 0, 255);
+  font-size: 30px;
+  font-weight: 400;
+  
+}
+
+body{
+  font-family: "Audiowide", sans-serif;;
+  color: #00ccffd2;
+}
+
+body nav :first-of-type:hover{
+  color: #03e3f3;
+  text-shadow: 0px 0px 30px blue;
+  transition: all 0.5s ease;
+}
+
+body nav :nth-of-type(2):hover{
+  color: #03e3f3;
+  text-shadow: 0px 0px 30px blue;
+  transition: all 0.5s ease;
+}
+
+body nav :nth-of-type(3):hover{
+  color: #03e3f3;
+  text-shadow: 0px 0px 30px blue;
+  transition: all 0.5s ease;
+}
+
+body nav :nth-of-type(4):hover{
+  color: #03e3f3;
+  text-shadow: 0px 0px 30px blue;
+  transition: all 0.5s ease;
+}
+
+body nav :nth-of-type(5):hover{
+  color: #03e3f3;
+  text-shadow: 0px 0px 30px blue;
+  transition: all 0.5s ease;
+}
+
+body nav :nth-of-type(6):hover{
+  color: #03e3f3;
+  text-shadow: 0px 0px 30px blue;
+  transition: all 0.5s ease;
+}
+
+div.weapon-grid section h2{
+  font-family: "Audiowide", sans-serif;
+}
+
+/* -------------------------------------------------------- */
+
+body {
+  margin-left: 6px;
+  color: #03e3f3;
+  background-color: #1e1e1e;
+  background-image: url("../Valorant/img/fondo1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  object-fit: cover;
+}
+
+body.fondo2 {
+  color: #0400ff;
+  background-image: url("../Valorant/img/fondo2.jpg");
+}
+
+body.fondo3 {
+  color: rgb(241, 47, 209);
+  background-image: url("../Valorant/img/fondo3.jpg");
+}
+
+body.fondo4 {
+  color: rgb(0, 255, 179);
+  background-image: url("../Valorant/img/fondo4.jpg");
+}
+
+body.fondo6 {
+  color: gold;
+  background-image: url("../Valorant/img/fondo6.jpg");
+}
+
+body.fondo7 {
+  color: orange;
+  background-image: url("../Valorant/img/fondo7.jpg");
+}
+
+/* -------------------------------------------------------- */
+
+h3 {
+  display: inline-block; /* ajusta el fondo al texto */
+  background-color: #0000003d;
+  padding: 0.2em 0.4em;
+  margin: 0 auto 1rem auto; /* mantiene separación con el video */
+  
+}
+
+p {
+  display: inline-block; /* ajusta el fondo al texto */
+  background-color: #0000003d;
+  padding: 0.2em 0.4em;
+  margin: 0 auto 1rem auto; /* mantiene separación con el video */
+  
+}
+
+li {
+  display: inline-block; /* ajusta el fondo al texto */
+  background-color: #0000003d;
+  padding: 0.2em 0.4em;
+  margin: 0 auto 1rem auto; /* mantiene separación con el video */
+  
+}
+
+.video video {
+  width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: 0 0 20px #03e3f3;
+  border-radius: 15px;
+}
+
+/* -------------------------------------------------------- */
+
+.fondo2 .video video {
+  box-shadow: 0 0 20px #0703f3;
+}
+
+.fondo3 .video video {
+  box-shadow: 0 0 20px rgb(241, 47, 209);
+}
+
+.fondo4 .video video {
+  box-shadow: 0 0 20px rgb(0, 255, 179);
+}
+
+.fondo6 .video video {
+  box-shadow: 0 0 20px gold;
+}
+
+.fondo7 .video video {
+  box-shadow: 0 0 20px orange;
+}
+
+/* -------------------------------------------------------- */
+
+/* Estructura base */
+body.tracker-page {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* Main ocupa el resto */
+body.tracker-page main {
+  flex-grow: 1;
+  overflow: hidden;
+  display: flex;
+}
+/* Iframe ocupa todo el main */
+body.tracker-page main iframe {
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+.tracker-page header{
+  background-color: rgb(31, 31, 31);
+}
+
+/* -------------------------------------------------------- */
+
+/* Contenedor */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+}
+
+/* Botón principal */
+.dropbtn {
+  background-color: rgb(6, 99, 221);
+  color: black;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* Lista oculta */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgb(17, 0, 255);
+  border-radius: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+}
+
+/* Items */
+.dropdown-content li a {
+  width: 170px;
+  color: rgb(17, 0, 255);
+  padding: 10px 14px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.dropdown-content li a:hover {
+  background-color: rgb(0, 26, 255);
+  color: #25252a;
+}
+
+/* Mostrar menú al hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* -------------------------------------------------------- */
+
+.tracker{
+  color: blue;
+}
+.tracker:hover {
+  color: #03e3f3;
+  text-shadow: 0px 0px 30px blue;
+  transition: all 0.5s ease;      /* se estira al ancho del contenedor */
+}
