@@ -1,1 +1,5 @@
-.
+Comandos Vite:
+Instalar Node js para poder instalar vite
+"npm i -g vite" Instala vite
+"npm create vite@latest" para generar la estructura base en UN PROYECTO, luego navega al directorio del proyecto y ejecuta npm install para las dependencias, y finalmente npm run dev para iniciar el servidor de desarrollo
+"npm run dev" Empieza a correr el servidor
