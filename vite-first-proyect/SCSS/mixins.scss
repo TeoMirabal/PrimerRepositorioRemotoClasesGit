@@ -1,0 +1,21 @@
+@use "variables";
+
+@mixin respond-to($bp) {
+  @if $bp == tablet {
+    @media (min-width: variables.$bp-tablet) {
+      @content;
+    }
+  } @else if $bp == tablet-horizontal {
+    @media (min-width: variables.$bp-tablet-horizontal) {
+      @content;
+    }
+  } @else if $bp == desktop {
+    @media (min-width: variables.$bp-desktop) {
+      @content;
+    }
+  } @else if $bp == large-desktop {
+    @media (min-width: variables.$bp-large-desktop) {
+      @content;
+    }
+  }
+}
